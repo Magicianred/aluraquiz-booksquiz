@@ -10,15 +10,6 @@ import GitHubCorner from '../src/components/GitHubCorner';
 
 
 
-/* const BackgroundImage = styled.div`
-  background-image: url(${db.bg});
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-  max-width: 100%;
-`; */
-
-
 export const QuizContainer = styled.section`
   width: 100%;
   max-width: 350px;
