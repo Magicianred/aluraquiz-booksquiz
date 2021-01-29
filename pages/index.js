@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import styled from "styled-components";
 import db from "../db.json";
 import  Widget from '../src/components/Widget';
@@ -28,9 +29,22 @@ export const QuizContainer = styled.section`
 
 
 
+
+
 export default function Home() {
   return (
+   
     <QuizBackground backgroundImage={db.bg}>
+       <Head>
+      <title>Books Quiz</title>
+      <meta property="og:title" content="Books Quiz" key="title" />
+      <meta property="og:image" content="https://images.unsplash.com/photo-1521920592574-49e0b121c964?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" key="title" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    
+
+
+    </Head>
+
       <QuizContainer>
       <QuizLogo />
 
@@ -59,5 +73,6 @@ export default function Home() {
       </QuizContainer>
       {/* /<GitHubCorner projectUrl="https://github.com/IzabellaLoyse/aluraquiz-booksquiz" /> */}
     </QuizBackground>
+    
   );
 }
