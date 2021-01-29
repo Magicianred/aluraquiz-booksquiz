@@ -8,7 +8,7 @@ import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner/index';
+/* import GitHubCorner from '../src/components/GitHubCorner/index'; */
 
 export const QuizContainer = styled.section`
   width: 100%;
@@ -82,7 +82,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/IzabellaLoyse/aluraquiz-booksquiz" />
+      {/* <GitHubCorner projectUrl="https://github.com/IzabellaLoyse/aluraquiz-booksquiz" /> */}
     </QuizBackground>
 
   );
