@@ -4,7 +4,7 @@ import  Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
+//import GitHubCorner from '../src/components/GitHubCorner';
 
 
 
@@ -57,7 +57,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/IzabellaLoyse/aluraquiz-booksquiz" />
+      {/* /<GitHubCorner projectUrl="https://github.com/IzabellaLoyse/aluraquiz-booksquiz" /> */}
     </QuizBackground>
   );
 }
